@@ -4,12 +4,11 @@
 # )
 from django.db import models
 
-class Post (models.Model):
+class Paste (models.Model):
 
-    title = models.CharField(max_length=200)
-    # linguagem = models.ChoiceField(choices=LEANGUAGE_CHOICES, default='python')
-    linguagem = models.TextField()
-    text = models.TextField()
+    paste_title = models.CharField(max_length=50)
+    paste_language = models.CharField(max_length=50)
+    paste_data = models.CharField(max_length=300)
 
     def __str__(self):
-        return self.title
+        return self.paste_title
