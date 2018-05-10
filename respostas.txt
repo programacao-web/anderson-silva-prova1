@@ -1,0 +1,39 @@
+senha banco
+
+"""
+anderson
+anderson123ams
+"""
+
+questao_3
+
+a e b) Mobile é a filosofia de desenvolvimento que visa o desenvolvimento mobile em primeiro plano. Não é mobile pelo tamanho da tela estar muito grande
+
+
+questao_4
+
+Problema sobre pesquisa em bancos, normalmente é buscado primeiro as chaves para depois se fazer operacoes sobre esses valores.
+Uma possivel solução para nossa aplicação é usar o comando
+Pastes.objects.select_related('user').all()
+
+
+questao5 = Paste(
+    paste_title='questao_5',
+    paste_language='Javascript',
+    paste_data='
+        class Person {
+            constructor(name, age) {
+                this.name = name3
+                this.age = age
+            }
+        
+            isAdult() {
+                return this.age >= 18
+            }
+        }
+    '
+)
+
+
+
+
